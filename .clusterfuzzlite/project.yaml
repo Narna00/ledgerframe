@@ -1,0 +1,9 @@
+language: c++
+fuzzing_engines:
+  - libfuzzer
+sanitizers:
+  - address
+fuzz_targets:
+  - frame_fuzzer
+  - batch_fuzzer
+  - index_fuzzer
