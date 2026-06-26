@@ -7,3 +7,7 @@ fuzz_targets:
   - frame_fuzzer
   - batch_fuzzer
   - index_fuzzer
+  - query_fuzzer
+  - schema_fuzzer
+  - writer_fuzzer
+  - repair_fuzzer
